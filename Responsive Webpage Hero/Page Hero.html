@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Google Fonts
+   ========================================================================== -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Link
+   ========================================================================== -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header Start
+   ========================================================================== -->
+    <header>
+      <nav class="nav">
+        <a class="nav__brand" href="/">Computevo</a>
+        <svg class="nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#">About</a></li>
+          <li class="nav__item"><a href="#">Services</a></li>
+          <li class="nav__item"><a href="#">Portfolio</a></li>
+          <li class="nav__item"><a href="#">Our Team</a></li>
+          <li class="nav__item"><a href="#">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header End
+ ========================================================================== -->
+
+    <!-- Hero Start
+ ========================================================================== -->
+    <section class="hero--block">
+      <div class="hero--grid">
+        <header class="hero__content">
+          <h1 class="hero__heading">
+            Let's Build the <span>Future</span> of the Web
+          </h1>
+          <p class="hero__tagline">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            aspernatur maxime, tempora quasi assumenda omnis! Nihil doloribus
+            commodi architecto laboriosam.
+          </p>
+          <a href="" class="btn">Get Started</a>
+        </header>
+        <!-- Optimize Technic For Best Experience 
+ ========================================================================== -->
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/hero-image@1x.webp 1x, images/hero-image@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/hero-image@1x.jpg 1x, images/hero-image@2x.jpg 2x"
+          />
+          <img src="images/hero-image.jpg" alt="" />
+        </picture>
+      </div>
+    </section>
+    <!-- Hero Start
+ ========================================================================== -->
+
+    <!-- JavaScript
+ ========================================================================== -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
