@@ -120,10 +120,9 @@ ul {
 /* Page Hero
 ========================================================================== */
 .hero--block {
-  --padding-vertical: 5rem;
-  padding: var(--padding-vertical) 2rem;
+  padding: 0 2rem;
+  padding-top:5rem;
   background: var(--color-primary);
-  padding-bottom: calc(var(--padding-vertical) + 4rem);
   clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 .hero--grid {
